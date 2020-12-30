@@ -3,13 +3,13 @@
     <section class="hero is-medium is-primary is-bold mb-6" >
       <div class="hero-body">
         <div class="container has-text-centered column is-three-quarters">
-          <h1 class="title">GitHub Repo Getter Online Tool</h1>
+          <h1 class="title">GitHub Repo Generator</h1>
           <h2 class="subtitle">Get all your repositories within seconds.</h2>
           
         </div>
         <div class="container has-text-centered column is-one-third">
-            <input class="input is-rounded" v-model="myusername" type="text" placeholder="Enter you Github Username">
-             <button class="button is-rounded" v-on:click="getRepoDetail">
+            <input class="input is-rounded" v-model="myusername" type="text" placeholder="Enter your Github Username">
+             <button class="button is-rounded mt-4" v-on:click="getRepoDetail">
           Fetch Data
         </button>
         </div>
