@@ -9,7 +9,7 @@
         </div>
         <div class="container has-text-centered column is-one-third">
             <input class="input is-rounded" v-model="myusername" type="text" placeholder="Enter your Github Username">
-             <button class="button is-rounded mt-4" v-on:click="getRepoDetail">
+             <button class="button is-primary is-rounded mt-4" v-on:click="getRepoDetail">
           Fetch Data
         </button>
         </div>
