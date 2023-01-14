@@ -3,7 +3,7 @@
     <section class="hero is-medium is-primary is-bold mb-6" >
       <div class="hero-body">
         <div class="container has-text-centered column is-three-quarters">
-          <h1 class="title">GitHub Repo Generator</h1>
+          <h1 class="title">GitHub Repo Fetcher</h1>
           <h2 class="subtitle">Get all your repositories within seconds.</h2>
           
         </div>
@@ -29,7 +29,6 @@
           </thead>
           <tbody>
             <tr v-for="repo in repos" :key="repo.id">
-              <td>{{repo.id}}</td>
               <td>{{repo.name}}</td>
               <td><a :href="repo.html_url">{{repo.html_url}}</a></td>
               <td>{{repo.language}}</td>
