@@ -1,4 +1,4 @@
-## GithubRepoGenerator
+## Github Repo Fetcher
 
 This project is basically will return all your Github repositories within seconds.
 
