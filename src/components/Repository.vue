@@ -20,11 +20,9 @@
         <table class="table is-bordered is-striped is-hoverable is-fullwidth">
           <thead>
             <tr>
-              <th>ID</th>
               <th>Name</th>
               <th>URL</th>
               <th>Language</th>
-              <th>Login</th>
             </tr>
           </thead>
           <tbody>
@@ -32,7 +30,6 @@
               <td>{{repo.name}}</td>
               <td><a :href="repo.html_url">{{repo.html_url}}</a></td>
               <td>{{repo.language}}</td>
-              <td>{{repo.owner.login}}</td>
             </tr>       
           </tbody>
         </table>
